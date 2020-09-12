@@ -14,8 +14,8 @@ const Navigation = ({handleOnTextChange, isDarkTheme}) => {
                 <Navbar.Toggle aria-controls="navigation" />
                 <Navbar.Collapse id="navigation">
                     <Nav className="mr-auto">
-                        <NavLink className="nav-link" to='/countriesbyflag'>By Flags</NavLink>
-                        <NavLink className="nav-link" to='/countriesbyname'>By Names</NavLink>
+                        <NavLink className="nav-link" to='/countriesbyflag'>By Flag</NavLink>
+                        <NavLink className="nav-link" to='/countriesbyname'>By Name</NavLink>
                     </Nav>
                     <SearchBar handleOnTextChange={handleOnTextChange}/>
                 </Navbar.Collapse>
